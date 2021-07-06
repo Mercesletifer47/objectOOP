@@ -10,18 +10,23 @@ public class Main {
     public static void main(String[] args) {
         Cat cat = new Cat("barsik", "red", 5);
         cat.info();
-        Cat cat2 = new Cat("pushok", "black", 2);
-        cat2.info();
-        
         cat.jump();
         cat.swim(150);
         cat.run(200);
+
+        Cat cat2 = new Cat("pushok", "black", 2);
+        cat2.info();
 
         Dog dog = new Dog("Tuzik", "blu", 3);
         dog.info();
         dog.jump();
         dog.swim(10);
         dog.run(500);
+
+        Dog dog2 = new Dog("Grelka", "white", 1);
+        dog2.info();
+
+        System.out.println("Количество созданных животных " + (Cat.numb+Dog.numb));
 
 
     }
