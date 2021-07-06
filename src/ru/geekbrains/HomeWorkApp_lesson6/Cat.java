@@ -9,7 +9,7 @@ public class Cat extends Animals {
         this.color = color;
         this.age = age;
         numb++;
-        System.out.println("Количество созданных котов " + numb);
+        System.out.println("Кот № " + numb);
     }
     @Override
     public void swim(int way) {

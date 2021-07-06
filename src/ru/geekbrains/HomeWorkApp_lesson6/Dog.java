@@ -9,7 +9,7 @@ public class Dog extends Animals {
         this.color= color;
         this.age= age;
         numb++;
-        System.out.println("Количество созданных собак " + numb);
+        System.out.println("Собака № " + numb);
     }
     @Override
     public void run(int run) {
